@@ -28,9 +28,9 @@ WiFiClientSecure net = WiFiClientSecure();
 MQTTClient client = MQTTClient(512);
 
 // Defining our AWS IoT Configuration
-#define DEVICE_NAME "MyESP32"
-#define AWS_IOT_ENDPOINT "a1o016gmzl2q0r-ats.iot.us-east-1.amazonaws.com"
-#define AWS_IOT_TOPIC "$aws/things/MyESP32/shadow/update"
+#define DEVICE_NAME "Your Things Here"
+#define AWS_IOT_ENDPOINT "Your Endpoint Here"
+#define AWS_IOT_TOPIC "$aws/things/your_things/shadow/update"
 #define AWS_MAX_RECONNECT_TRIES 10
 
 // Define Publish and Describe Topics
@@ -48,8 +48,8 @@ MQTTClient client = MQTTClient(512);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Define the Network Specifications
-#define WIFI_NETWORK "Server Network"
-#define WIFI_PASS "anaklks2023"
+#define WIFI_NETWORK "Your_Wifi_Here"
+#define WIFI_PASS "Your_Password_Here"
 #define WIFI_TIMEOUT_MS 20000
 
 // Define the DHT Type
