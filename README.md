@@ -15,4 +15,8 @@ ________________________________________________________________________________
     }
   ]
 }
-
+______________________________________
+3. And the menu IOT Core, choode IOT Things and this example iam using name MyESP32
+4. Next Iam create the shadow name MyESP32-Shadow
+5. Next create.
+6. Then you can download my github code for your tester.
