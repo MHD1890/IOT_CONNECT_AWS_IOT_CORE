@@ -1,2 +1,7 @@
 # IOT_CONNECT_AWS_IOT_CORE
-This code for IOT local connect to IOT Core
+__________________________________________
+How To Connect IOT Local to IOT Core in AWS
+
+
+Fisrt You need to open menu IOT Core
+1
